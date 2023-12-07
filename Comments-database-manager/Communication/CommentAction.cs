@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Comments_database_manager.Communication
+{
+    public enum CommentAction
+    {
+        Create,
+        Read,
+        Update,
+        Delete
+    }
+}
